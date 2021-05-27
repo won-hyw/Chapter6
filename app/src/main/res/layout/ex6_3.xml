@@ -3,5 +3,12 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
+    <TimePicker
+        android:timePickerMode="spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <DatePicker
+        android:datePickerMode="spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 </LinearLayout>

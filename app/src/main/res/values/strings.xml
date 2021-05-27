@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Chapter6</string>
+    <string name="btn_start">예약 시작</string>
+    <string name="btn_done">예약 완료</string>
+    <string name="radio_date">날짜 설정(캘린더뷰)</string>
+    <string name="radio_time">시간 설정</string>
 </resources>
