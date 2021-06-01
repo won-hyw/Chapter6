@@ -11,13 +11,9 @@
         android:textSize="25sp"
         android:layout_marginTop="20dp"
         android:format="예약에 걸린 시간: %s"/>
-    <Button
-        android:id="@+id/btn_start"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/btn_start"/>
     <RadioGroup
         android:id="@+id/rg"
+        android:visibility="invisible"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <RadioButton
@@ -35,8 +31,10 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-        <CalendarView
-            android:id="@+id/calendar"
+        <DatePicker
+            android:visibility="invisible"
+            android:datePickerMode="spinner"
+            android:id="@+id/date_pick"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
         <TimePicker
@@ -53,13 +51,9 @@
         android:layout_marginLeft="10dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <Button
-            android:id="@+id/btn_done"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/btn_done"/>
         <TextView
             android:id="@+id/text_result"
+            android:text="2021년"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </LinearLayout>
